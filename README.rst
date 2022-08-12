@@ -56,6 +56,7 @@ Installation
             "dramatiq.middleware.TimeLimit",
             "dramatiq.middleware.Callbacks",
             "dramatiq.middleware.Retries",
+            "django_dramatiq_pg.middleware.DbConnectionsMiddleware",
         ],
     }
     DRAMATIQ_REGISTRY = 'myapp.registry.tasks'
